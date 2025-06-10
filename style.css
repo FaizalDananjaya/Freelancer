@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #8B0000; /* Merah gelap */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+header .logo img {
+    height: 30px;
+    width: auto;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8B0000; /* Merah gelap */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A52A2A; /* Warna lebih terang saat hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #8B0000; /* Merah gelap */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
